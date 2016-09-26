@@ -3,3 +3,7 @@
 	padding: 0px;
 	/*this was made in the master repo*/
 }
+h1{
+	color: red;
+	/*this was added in the new features branch*/
+}
