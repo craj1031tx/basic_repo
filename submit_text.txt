@@ -1,0 +1,30 @@
+\\basic_repo text document
+\\created basic_repo repo on github.com
+\\created directory
+	[navigated to desktop]
+	mkdir basic_repo
+	cd basic_repo
+	touch index.html, styles.css, readme.txt
+\\initialized git
+	git init
+\\pushed initial files to master repo
+	git add .
+	git commmit -m "comments"
+\\added random content to files in master
+\\added and commited updates in master
+	git add .
+	git commit -m "first mods to files"
+\\created new branch for new features
+	git branch new_features
+	git checkout new_features
+\\did some random mods to new features
+\\commited new features to local new_features branch repo
+	git add .
+	git commit -m "updates to files in new_features branch"
+\\navigated to master, merged new_features branch into it.
+	git checkout master
+	git merge new_features
+\\pushed files from local repo to cloud repo. 
+	git remote add origin https://github.com/craj1031tx/basic_repo.git
+	git push -u origin master
+
